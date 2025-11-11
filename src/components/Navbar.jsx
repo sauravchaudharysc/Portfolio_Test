@@ -62,7 +62,8 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+            <img src="https://img.icons8.com/emoji/48/man-technologist.png" alt="man-technologist" className="w-9 h-9 object-contain"/>
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
               LOHIT&nbsp;
               <span className="sm:block hidden">KOLLURI</span>
